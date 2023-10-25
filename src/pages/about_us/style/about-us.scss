@@ -1,0 +1,81 @@
+//achievement stylesheet
+
+
+.achievement-container {
+margin: 10rem auto 0 auto;
+width: 80%;
+}
+
+.heading-aboutUS {
+  text-align: center;
+  color: #001580;
+  padding: 2rem;
+  font-size: 4rem;
+  font-weight: 00;
+  letter-spacing: 0.1rem;
+  cursor: default;
+}
+
+
+//company info stylesheet
+
+.container-companyInfo{
+margin-top: 10rem;
+width: 80%;
+margin: 10rem auto;
+}
+
+
+//FounderBlock stylesheet
+@import '../../../sass/abstracts/variables';
+
+.container-founderBlock{
+margin-top: 10rem;
+width: 100%;
+height: 60rem;
+background-image: linear-gradient(
+  to top right,
+  rgba(0, 13, 25, 1),
+  rgba(0, 72, 140, 1)
+);
+};
+
+.text-box-founderBlock {
+  margin: 5rem;
+  width: 40%;
+
+  &__text {
+    color: $color-white;
+    padding: 0 2rem;
+  }
+}
+
+.img-box-founderBlock {
+  width: 40%;
+  height: 80%;
+  margin: 5rem;
+
+  &__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 1rem;
+  }
+}
+
+.btn-founderBlock {
+  margin: 5rem 2rem;
+}
+
+//ImgTitleText page stylesheet
+
+.container-imgTitleText{
+margin: 10rem auto 0 auto;
+width: 80%;
+};
+.text-box-imgTitleText {
+  &__text {
+    padding: 0 2rem;
+  }
+}

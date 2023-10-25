@@ -1,0 +1,73 @@
+.btn {
+
+  &,
+  &:link,
+  &:visited {
+    width: 12rem;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 3rem;
+    transition: all 0.2s;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;
+
+
+
+    @include respond(tab-port) {
+      padding: 0.4rem 1.2rem;
+      border-radius: 2rem;
+      font-weight: 700;
+    }
+  }
+
+
+
+  &--white {
+    color: $color-primary;
+    background-color: $color-white;
+    border: 1px solid $color-primary;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-primary;
+      border: 1px solid $color-primary;
+      transform: translateY(-0.1rem);
+    }
+
+    &:active {
+      transform: translateY(0.1rem);
+    }
+  }
+
+  &--blue {
+    color: $color-white;
+    background-color: $color-primary;
+  }
+
+  &--bluelight {
+    color: $color-white;
+    background-color: $color-primary-2;
+  }
+
+  &--orange {
+    color: $color-white;
+    background-color: $color-secondary;
+  }
+
+  &:hover {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(black, 0.3);
+    opacity: 0.8;
+  }
+
+  &:active {
+    transform: translateY(0.1rem);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

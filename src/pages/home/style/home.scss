@@ -1,0 +1,34 @@
+// Slide Page stylesheet
+
+.container-textBox-SlidePage{
+margin: 10rem auto 0 auto;
+width: 80%;
+}
+
+.text-box-slidePage {
+  &__text {
+    padding: 0 2rem;
+  }
+}
+
+.heading-slidePage {
+  text-align: center;
+}
+
+.container-formBox-SlidePage{
+height: 100rem;
+background-image: linear-gradient(
+  to top right,
+  rgba(0, 13, 25, 1),
+  rgba(0, 72, 140, 1)
+);
+margin-top: 15rem;
+padding: 0.05px;
+};
+
+.form-box-slidePage {
+  width: 80%;
+  height: 80%;
+  margin: 10rem auto;
+  padding: 5rem;
+}

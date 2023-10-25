@@ -1,0 +1,169 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: $default-font-size;
+  line-height: 1.7;
+
+  @include respond(tab-port) {
+    font-size: 1.2rem;
+  }
+
+  @include respond(phone) {
+    font-size: 1rem;
+  }
+}
+
+.heading-primary {
+
+  &--main {
+    text-transform: uppercase;
+    display: block;
+    padding: 2rem;
+    font-size: 8rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    cursor: default;
+
+    @include respond(tab-port) {
+      font-size: 6rem;
+    }
+
+    @include respond(phone) {
+      font-size: 4rem;
+    }
+  }
+
+  &--sub {
+    color: $color-primary;
+    display: block;
+    padding: 2rem;
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    cursor: default;
+
+    @include respond(tab-port) {
+      font-size: 4rem;
+    }
+
+    @include respond(phone) {
+      font-size: 2rem;
+    }
+  }
+}
+
+.heading-secondary {
+
+  &--main {
+    color: #001580;
+    padding: 2rem;
+    font-size: 4rem;
+    font-weight: 00;
+    letter-spacing: 0.1rem;
+    cursor: default;
+
+
+    @include respond(tab-port) {
+      font-size: 3.5rem;
+    }
+
+    @include respond(phone) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &--sub {
+    display: block;
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    cursor: default;
+
+    @include respond(tab-port) {
+      font-size: 2rem;
+    }
+
+    @include respond(phone) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.heading-tertiary-blue {
+
+  &--main {
+    display: block;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    cursor: default;
+    color: $color-primary;
+
+    @include respond(tab-port) {
+      font-size: 2.5rem;
+    }
+
+    @include respond(phone) {
+      font-size: 2rem;
+    }
+  }
+
+  &--sub {
+    display: block;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    cursor: default;
+    color: $color-primary;
+
+    @include respond(tab-port) {
+      font-size: 0.8rem;
+    }
+
+    @include respond(phone) {
+      font-size: 0.5rem;
+    }
+  }
+}
+
+.heading-tertiary-white {
+
+  &--main {
+    display: block;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    cursor: default;
+    color: $color-white;
+
+    @include respond(tab-port) {
+      font-size: 2.5rem;
+    }
+
+    @include respond(phone) {
+      font-size: 2rem;
+    }
+  }
+
+  &--sub {
+    display: block;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    cursor: default;
+    color: $color-white;
+
+    @include respond(tab-port) {
+      font-size: 1.5rem;
+    }
+
+    @include respond(phone) {
+      font-size: 0.5rem;
+    }
+  }
+}

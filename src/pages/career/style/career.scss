@@ -1,0 +1,66 @@
+// Job Description Stylesheet
+
+
+.container-Jobdescription{
+  margin: 0 auto;
+  width:80%;
+}
+
+.header-jobTitle{
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 2rem;
+};
+.container-description-page {
+  border: 1px solid #e8e8e8;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+  Display:flex;
+};
+
+.container-jobBox {
+border: 1px solid #e8e8e8;
+box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+padding: 20px;
+margin: 3rem;
+
+ & p {
+   font-size: 18px;
+   font-family: "Bodoni, sans-serif";
+   margin: 2rem;
+ };
+
+ &--description{
+   float: left;
+   width: 65%;
+ };
+
+ &--appInfo{
+   float: right;
+   width: 32%;
+ };
+
+};
+
+.typography-jobDescription {
+font-family: "Bodoni, sans-serif";
+
+&--header-box{
+  background-color: #4175D0;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+
+};
+&--descriptionTitle{
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px;
+}
+};
+
+.apply-button {
+
+};

@@ -1,0 +1,25 @@
+// content stylesheet
+
+@import '../../../sass/abstracts/variables';
+
+.container-contentPage{
+margin: 10rem auto;
+width: 80%;
+}
+
+.heading-primary--sub {
+  text-align: center;
+}
+
+.text-content-insights {
+  padding: 0 2rem;
+}
+
+.nav-bar-insights {
+  width: 95%;
+  margin: 10rem auto 0 auto;
+}
+
+.categoryBox-insights {
+  border-bottom: 0.2rem solid $color-primary;
+}

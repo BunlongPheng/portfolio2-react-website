@@ -1,0 +1,28 @@
+//page contact style sheet
+
+.text-box-contact {
+  margin: 10rem;
+}
+
+.text-contact {
+  padding-left: 2rem;
+}
+
+.input-section {
+  height: 90rem;
+  background-image: linear-gradient(
+    to top right,
+    rgba(0, 13, 25, 1),
+    rgba(0, 72, 140, 1)
+  );
+  padding: 5rem 5rem;
+}
+
+.form-box {
+  width: 50%;
+}
+
+.liveChatForm-box {
+  width: 30%;
+  margin-top: 5rem;
+}
